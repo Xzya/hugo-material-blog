@@ -2,6 +2,10 @@
 
 Clean Material Design blog theme for Hugo.
 
+## Demo
+
+You can find a demo [here](https://themes.gohugo.io/theme/hugo-material-blog/).
+
 ## Screenshots
 
 ![preview](https://raw.githubusercontent.com/Xzya/hugo-material-blog/master/images/screenshot.png)
