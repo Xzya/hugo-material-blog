@@ -13,7 +13,7 @@ categories = [
     "golang",
 ]
 author = "John Doe"
-cover_image = "/images/image1.jpeg"
+cover_image = "images/image1.jpeg"
 +++
 
 ## Step 1. Install Hugo

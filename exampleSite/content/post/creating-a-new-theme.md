@@ -9,7 +9,7 @@ next: /tutorials/github-pages-blog
 prev: /tutorials/automated-deployments
 title: Creating a New Theme
 weight: 10
-cover_image: "/images/image1.jpeg"
+cover_image: "images/image1.jpeg"
 ---
 
 

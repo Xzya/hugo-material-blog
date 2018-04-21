@@ -10,7 +10,7 @@ linktitle = "Débuter avec Hugo"
 slug = "Debuter avec Hugo"
 title = "Débuter avec Hugo"
 type = "post"
-cover_image = "/images/image1.jpeg"
+cover_image = "images/image1.jpeg"
 
 +++
 

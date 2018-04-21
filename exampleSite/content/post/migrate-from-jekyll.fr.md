@@ -10,7 +10,7 @@ linktitle = "Migrer vers Hugo depuis Jekyll"
 slug = "Migrer vers Hugo depuis Jekyll"
 title = "Migrer vers Hugo depuis Jekyll"
 type = "post"
-cover_image = "/images/image1.jpeg"
+cover_image = "images/image1.jpeg"
 [menu.main]
   parent = "tutorials"
 +++

@@ -7,7 +7,7 @@ menu:
 prev: /tutorials/mathjax
 title: Migrate to Hugo from Jekyll
 weight: 10
-cover_image: "/images/image1.jpeg"
+cover_image: "images/image1.jpeg"
 ---
 
 ## Move static content to `static`

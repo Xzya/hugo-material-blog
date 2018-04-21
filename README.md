@@ -15,7 +15,7 @@ Check `exampleSite/config.toml` for an example configuration.
 
 You can use the `cover_image` param in the frontmatter of a post to include a cover image:
 
-`cover_image: "/images/image1.jpeg"`
+`cover_image: "images/image1.jpeg"`
 
 ## Brand
 

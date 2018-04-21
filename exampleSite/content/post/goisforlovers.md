@@ -14,7 +14,7 @@ categories = [
     "golang",
 ]
 menu = "main"
-cover_image = "/images/image1.jpeg"
+cover_image = "images/image1.jpeg"
 +++
 
 Hugo uses the excellent [go][] [html/template][gohtmltemplate] library for

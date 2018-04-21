@@ -11,7 +11,7 @@ menu = "main"
 slug = "Introduction aux modeles Hugo"
 title = "Introduction aux modèles (Hu)go"
 type = "post"
-cover_image = "/images/image1.jpeg"
+cover_image = "images/image1.jpeg"
 
 +++
 

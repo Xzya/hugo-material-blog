@@ -10,7 +10,7 @@ linktitle = "Création d'un nouveau thème"
 title = "Création d'un nouveau thème"
 slug = "Creation d'un nouveau theme"
 type = "post"
-cover_image = "/images/image1.jpeg"
+cover_image = "images/image1.jpeg"
 [menu.main]
   parent = "tutorials"
 +++
