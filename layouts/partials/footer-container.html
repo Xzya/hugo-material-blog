@@ -11,15 +11,18 @@
         {{ partial "footer-content" . }}
     </div>
 
-    <div class="col s12 l{{ sub $linksCols 2 }} offset-l2">
-        <div class="row">
-            {{ $menus := .Site.Menus }}
-            {{ $colWidth := math.Floor (div 12 (len .Site.Params.footer_menus)) }}
-            {{ range $index, $menu := .Site.Params.footer_menus }}
-                <div class="col s{{ $colWidth }} clear-padding">
-                    {{ partial "menu-links" (dict "menu" (index $menus $menu.menu) "name" $menu.name ) }}
-                </div>
-            {{ end }}
+    {{ if .Site.Params.footer_menus }}
+        <div class="col s12 l{{ sub $linksCols 2 }} offset-l2">
+            <div class="row">
+                {{ $menus := .Site.Menus }}
+                {{ $colWidth := math.Floor (div 12 (len .Site.Params.footer_menus)) }}
+                {{ range $index, $menu := .Site.Params.footer_menus }}
+                    <div class="col s{{ $colWidth }} clear-padding">
+                        {{ partial "menu-links" (dict "menu" (index $menus $menu.menu) "name" $menu.name ) }}
+                    </div>
+                {{ end }}
+            </div>
         </div>
-    </div>
+    {{ end }}
 </div>
+
