@@ -1,6 +1,7 @@
 baseurl = "https://example.com/"
-languageCode = "en-us"
 title = "Material Blog"
+languageCode = "en-us"
+defaultContentLanguage = "en"
 
 # Pagination
 paginate = 3
@@ -15,9 +16,6 @@ copyright = "© 2014 Copyright Text"
 # Links format
 [permalinks]
   post = "/:year/:month/:title/"
-
-# Localization
-defaultContentLanguage = "en"
 
 # English
 [languages.en]
