@@ -13,7 +13,7 @@
                 {{ end }}
             </ul>
             <li>
-                <a class="dropdown-button black-text" href="#!" data-activates="{{ $.Scratch.Get "id" }}-{{ $index }}">{{ $menu.Name }}
+                <a class="dropdown-trigger black-text" href="#!" data-target="{{ $.Scratch.Get "id" }}-{{ $index }}">{{ $menu.Name }}
                     <i class="material-icons right">arrow_drop_down</i>
                 </a>
             </li>
@@ -28,12 +28,12 @@
     <div class="row max-width">
         <div class="col s12 l10 offset-l1">
             <!-- Hamburger menu -->
-            <a href="#" data-activates="nav-mobile" class="button-collapse black-text">
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger black-text">
                 <i class="material-icons">menu</i>
             </a>
 
             <!-- Mobile sidenav -->
-            <ul id="nav-mobile" class="side-nav">
+            <ul id="nav-mobile" class="sidenav">
                 {{ $.Scratch.Set "id" "dropdown-header-mobile" }}
                 {{ block "nav-menu" . }}{{ end }}
             </ul>
